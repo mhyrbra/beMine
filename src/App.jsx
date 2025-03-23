@@ -23,7 +23,6 @@ function App() {
       'من مردم',
       'خب الان داری با روح مهیار حرف می‌زنی',
       'راه بیا دیگه فرشته من',
-      ':((((',
       ')):میو',
       'نه وقتشه بیام بدزدمت😡',
       '):ولی مامانی',
@@ -39,7 +38,7 @@ function App() {
       {yesPressed ? (
         <>
           <img src='https://gifdb.com/images/high/love-cute-white-puffy-bear-sticker-6370meeebdiv0b8s.webp' />
-          <div className='my-4 text-4xl font-bold'>هورا!! فسقلی من</div>
+          <div className='my-4 text-4xl font-bold'>هورا!! عاشقتم فسقلی من</div>
         </>
       ) : (
         <>
