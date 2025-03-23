@@ -46,7 +46,7 @@ function App() {
             className='h-[300px]'
             src='https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif'
           />
-          <h1 className='my-4 text-3xl mb-8'>میشه همیشه مال من باشی؟</h1>
+          <h1 className='my-4 text-3xl mb-8'>موست کنم دافالو؟</h1>
           <div className='flex items-center'>
             <button
               className={`mr-4 rounded bg-green-500 px-4 py-2 font-bold text-white hover:bg-green-700`}
