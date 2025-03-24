@@ -3,7 +3,7 @@ import { useState } from 'react';
 function App() {
   const [noCount, setNoCount] = useState(0);
   const [yesPressed, setYesPressed] = useState(false);
-  const [disableNo, setDisableNo] = useState(false);
+  const [noIsDisabled, setNoIsDisabled] = useState(false);
   const yesButtonSize = noCount * 15 + 16;
 
   const handleNoClick = () => {
@@ -30,7 +30,7 @@ function App() {
     ];
 
     if (noCount > phrases.length - 1) {
-      setDisableNo(true);
+      setNoIsDisabled(true);
       return;
     }
     return phrases[noCount];
@@ -58,7 +58,7 @@ function App() {
             >
               معلومه که آره
             </button>
-            {!disableNo && (
+            {!noIsDisabled && (
               <button
                 onClick={handleNoClick}
                 className='rounded bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-700'
